@@ -8,11 +8,13 @@
     height: 100vh;
 }
 .sidebar{
-    background-color: rgb(188, 156, 218) ;
+    background-image: url("./images/indir.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     grid-template-rows: 15% 40% 45%;
     padding-left: 15%;
-    color: antiquewhite;
+    color: palevioletred;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -51,7 +53,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: antiquewhite;
+    color: palevioletred;
 }
 .input{
     padding-left: 30px;
