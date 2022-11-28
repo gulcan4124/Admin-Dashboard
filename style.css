@@ -18,6 +18,7 @@
     font-size: 20px;
     font-weight: bolder;
 }
+
 .right{
     display: grid;
     grid-template-rows: 30% 70%;
@@ -39,7 +40,6 @@
 }
 .second{
     display: grid;
-    padding-left: 15%;
 }
 ul{
     list-style-type: none;
@@ -49,21 +49,88 @@ li{
 }
 .third{
     display: grid;
-    padding-left: 15%;
+    padding-top: 50px;
 }
 a{
     text-decoration: none;
     color: palevioletred;
 }
 .input{
-    padding-left: 30px;
-    padding-top: 20px;
-    
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 20px 30px;
+    align-items: center;
 }
 input{
-    width: 30%;
+    width: 60%;
     height: 25px;
     border-radius: 5px;
     border: none;
     color: gray;
+}
+.search-icon{
+    width: 25px;
+    padding-right: 10px;
+}
+.bell-icon{
+    width: 25px;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+.top-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.picture{
+    background-image: url("./images/Lily.jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.top-right .picture{
+        margin: 0 1rem 0 1rem;
+        height: 40px;
+        width: 40px;
+}
+p.name{
+    margin-top: 16px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+ .bottom-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 40px;
+ }
+ .bottom-left .picture{
+    margin: 0 1rem 0 1rem;
+    height: 55px;
+    width: 55px;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: row;
+}
+.bottom-left p{
+    margin: 0;
+}
+.main-content{
+   display: grid;
+   grid-template-columns: 70% 30%;
+}
+.main-right{
+    display: grid;
+    grid-template-rows: 50% 50%;
 }
