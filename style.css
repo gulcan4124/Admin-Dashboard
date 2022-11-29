@@ -21,7 +21,7 @@
 
 .right{
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 25% 75%;
 }
 .header{
     background-color: lavender;
@@ -53,6 +53,9 @@ li{
 }
 a{
     text-decoration: none;
+    color: palevioletred;
+}
+a:hover{
     color: palevioletred;
 }
 .input{
@@ -105,7 +108,7 @@ p.name{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0;
 }
  .bottom-right{
     display: flex;
@@ -132,5 +135,77 @@ p.name{
 }
 .main-right{
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 45% 55%;
+}
+.triple{
+    width: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(3,110px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.cardlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.card{
+    
+    background-color: rgb(244, 236, 248);
+    border-left: 0.3cm solid palevioletred;
+}
+.text1{
+    font-weight: bold;
+   padding-left: 10px;
+}
+.text2{
+    padding-left: 20px;
+}
+.place{
+    background-color: rgb(244, 236, 248);
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+}
+.place p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    margin: 10px 15px;
+}
+.avatar{
+    background-image: url("./images/indir\ \(1\).jpeg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.trend{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.trends{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.avatarname{
+    margin: 0;
+    padding-left: 5px;
 }
